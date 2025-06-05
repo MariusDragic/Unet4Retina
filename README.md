@@ -26,7 +26,9 @@ The implemented model follows the classical U-Net structure:
 - **Output Layer**:
   - Per-pixel classification ensuring accurate segmentation.
 
-<img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/unet.png" alt="U-Net Architecture" width="75%"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/unet.png" alt="U-Net Architecture" width="75%">
+</p>
 
 *Figure 1 — U-Net architecture scheme*
 
@@ -64,7 +66,9 @@ The proposed loss function significantly improves segmentation accuracy:
 | **Accuracy**        | 95.59                              | **96.28**    |
 
 
-<img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/comparison.png" alt="Segmentation Comparison" width="75%"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/comparison.png" alt="Segmentation Comparison" width="75%">
+</p>
 
 *Figure 2 — Visual comparison of segmentation results. Top: BCE Loss alone. Bottom: Skeleton Recall + Weighted BCE Loss.*
 
