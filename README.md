@@ -63,7 +63,8 @@ The proposed loss function significantly improves segmentation accuracy:
 | **Precision**       | 68.92                              | **82.14**    |
 | **Accuracy**        | 95.59                              | **96.28**    |
 
-![Segmentation Comparison](https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/comparison.png)
+
+<img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/comparison.png" alt="Segmentation Comparison" width="75%"/>
 
 *Figure — Visual comparison of segmentation results. Top: BCE Loss alone. Bottom: Skeleton Recall + Weighted BCE Loss.*
 
