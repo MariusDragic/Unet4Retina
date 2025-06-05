@@ -26,7 +26,8 @@ The implemented model follows the classical U-Net structure:
 - **Output Layer**:
   - Per-pixel classification ensuring accurate segmentation.
 
-![U-Net Architecture](https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/unet.png)
+<img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/unet.png" alt="U-Net Architecture" width="75%"/>
+
 
 
 ## Loss Function: Skeleton Recall + Weighted BCE
