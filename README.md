@@ -1,22 +1,17 @@
-# Unet4Retina
-
 # Unet4Retina: Segmentation of Retinal Blood Vessels using U-Net
 
 This repository presents a U-Net model specifically adapted to the challenging task of retinal vessel segmentation, demonstrating robustness and improved segmentation of thin and branching structures using the STARE dataset.
 
----
 
 ## Overview
 
 Retinal blood vessel segmentation is crucial for diagnosing ophthalmological conditions. This project leverages the well-established **U-Net architecture**, enhancing its performance by introducing a specialized **Skeleton Recall Loss**, ensuring fine vascular details are preserved in segmentation tasks.
 
----
 
 ## Motivation
 
 Traditional binary cross-entropy (BCE) loss functions often inadequately segment fine, filament-like structures, crucial in medical imagery such as retinal scans. This work overcomes this limitation by combining a **Skeleton Recall Loss** with a weighted BCE loss, achieving superior segmentation performance, particularly relevant in clinical diagnostics.
 
----
 
 ## U-Net Architecture
 
@@ -33,8 +28,6 @@ The implemented model follows the classical U-Net structure:
 
 ![U-Net Architecture](https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/unet.png)
 
-
----
 
 ## Loss Function: Skeleton Recall + Weighted BCE
 
@@ -56,8 +49,6 @@ This project utilizes the STARE dataset, specifically aimed at retinal imagery. 
 - **Initial Training Set**: 80 images  
 - **Post-Augmentation Training Set**: 240 images (3 augmentations per image)  
 - **Test Set**: 20 images  
-
----
 
 ## Results
 
@@ -84,8 +75,6 @@ Compared to the BCE-only configuration, the hybrid loss preserves vascular conti
 - Reduced fragmentation, preserving anatomical consistency.
 - Improved recall metric essential for clinical diagnosis.
 
----
-
 ## Usage
 
 ### Requirements
@@ -109,8 +98,6 @@ Run the provided Jupyter notebook to reproduce training steps and evaluation:
     jupyter notebook notebooks/training_evaluation.ipynb
 ```
 
----
-
 ## References
 
 Here are the two main references i was based on to make my researches:
@@ -118,18 +105,13 @@ Here are the two main references i was based on to make my researches:
 - U-Net: [Olaf Ronneberger et al., 2015](https://arxiv.org/abs/1505.04597)  
 - Skeleton Recall Loss: [Yannick Kirchhoff et al., 2024](https://arxiv.org/abs/2404.03010)  
 
----
-
 ## Author
 
 - **Marius Dragic** - [marius.dragic@student-cs.fr](mailto:marius.dragic@student-cs.fr)
-
----
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
 *This README was created to rigorously present and document the methodology, architecture, and findings associated with U-Net applied to retinal vessel segmentation.*
