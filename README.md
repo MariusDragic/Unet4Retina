@@ -28,7 +28,7 @@ The implemented model follows the classical U-Net structure:
 
 <img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/unet.png" alt="U-Net Architecture" width="75%"/>
 
-
+*Figure 1 — U-Net architecture scheme*
 
 ## Loss Function: Skeleton Recall + Weighted BCE
 
@@ -66,7 +66,7 @@ The proposed loss function significantly improves segmentation accuracy:
 
 <img src="https://raw.githubusercontent.com/MariusDragic/Unet4Retina/main/images/comparison.png" alt="Segmentation Comparison" width="75%"/>
 
-*Figure — Visual comparison of segmentation results. Top: BCE Loss alone. Bottom: Skeleton Recall + Weighted BCE Loss.*
+*Figure 2 — Visual comparison of segmentation results. Top: BCE Loss alone. Bottom: Skeleton Recall + Weighted BCE Loss.*
 
 Compared to the BCE-only configuration, the hybrid loss preserves vascular continuity and reveals fine capillary details often missed in standard segmentation.  
 
