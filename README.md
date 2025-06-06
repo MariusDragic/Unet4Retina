@@ -7,6 +7,8 @@ This repository presents a U-Net model specifically adapted to the challenging t
 
 Retinal blood vessel segmentation is crucial for diagnosing ophthalmological conditions. This project leverages the well-established **U-Net architecture**, enhancing its performance by introducing a specialized **Skeleton Recall Loss**, ensuring fine vascular details are preserved in segmentation tasks.
 
+A detailed report including theoretical background and extended results is available [here](https://github.com/MariusDragic/Unet4Retina/blob/main/Unet4Retina-report.pdf) for interested readers.
+
 
 ## Motivation
 
